@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  body {
+    height: 100%;
+    background-image: url("https://github.com/Kageetai/mario-background-parallax/blob/master/img/mario.gif?raw=true"), url("https://github.com/Kageetai/mario-background-parallax/blob/master/img/ground.png?raw=true"), url("https://github.com/Kageetai/mario-background-parallax/blob/master/img/bushes.png?raw=true"), url("https://raw.githubusercontent.com/Kageetai/mario-background-parallax/master/img/back.png?raw=true");
+    background-color: #F8E0B0;
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-x;
+    background-position: left 30% bottom 22px, left 0px bottom 0px, left 0px bottom 22px, left 0px bottom 0px;
+    animation: back 15s infinite linear;
+  }
+  
+  @keyframes back {
+    0% {
+      background-position: left 30% bottom 22px, left 0px bottom 0px, left 0px bottom 22px, left 0px bottom 0px;
+    }
+    50% {
+      background-position: left 50% bottom 22px, left -816px bottom 0px, left -508px bottom 22px, left -256px bottom 0px;
+    }
+    100% {
+      background-position: left 30% bottom 22px, left -1632px bottom 0px, left -1016px bottom 22px, left -512px bottom 0px;
+    }
+  }
+  
+  td{
+      border-bottom: 1px solid white;
+      border-left: 1px solid white ;
+      text-align: center;
+      
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  
+  }
+  
+  .table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  
+   
+  
+  }
+  
+  
+  
+  .wrapper{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  
+  }
+  
+  
+  
